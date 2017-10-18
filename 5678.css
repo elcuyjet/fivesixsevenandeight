@@ -1,0 +1,93 @@
+body {	
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Playfair Display', serif;
+	background-color: #278F7E;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 20;
+	color: white;
+
+}
+
+h1 {
+	font-size: 7.0em;
+	color: white;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	line-height: 1.3em;
+
+}
+
+h3 {
+	color: #F5F2C3;
+	letter-spacing: 0.1em;
+	line-height: 1.3em;
+/*	text-transform: uppercase;
+*/	font-family: 'Poppins', sans-serif;
+	font-size: 1.2em;
+
+}
+
+a {
+	color: white;
+	text-transform: bold;
+	text-decoration: none;
+
+}
+.menu {
+	color: white;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 10px 20px;
+}
+
+.hero-container {
+    margin: 0 auto;
+    padding: 15% 0;
+    margin: 0 20%; 
+}
+
+
+.btn-lg, .btn-group-lg > .btn {
+	font-family: 'Poppins', sans-serif;
+	color: #F5F2C3;
+    background-color: rgba(0,0,0,0.01);;
+    border-color: #F5F2C3;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	margin-top: 80px;
+	border-radius: 34px;
+	padding: 15px 50px;
+	border: 2px solid;
+}
+
+.btn-default:hover {
+   	color: #278F7E;
+	background-color: #F5F2C3;
+	border-color: #278F7E;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent; 
+    color: #F5F2C3
+}
+
+.btn-default:active {
+	color: #278F7E;
+	background-color: #F5F2C3;
+	border-color: #278F7E;
+
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
